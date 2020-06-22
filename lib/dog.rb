@@ -9,7 +9,7 @@ class Dog
   end 
   
   def self.all 
-    @@all 
+    Dog.@@all 
   end 
   
   def self.clear_all
@@ -17,7 +17,7 @@ class Dog
   end 
   
   def self.print_all 
-    @@all.each do 
+    @@all.each do |
       puts 
     end 
   end 
