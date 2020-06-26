@@ -26,7 +26,7 @@ class Dog
   def self.print_all
  #iterates over each dog in all and puts out to terminal
     @@all.each do |name|
-    puts self.name
+    puts dog.name
     end 
   end
 
